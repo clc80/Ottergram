@@ -1,4 +1,4 @@
-@fontface {
+@font-face {
   font-family: 'airstreamregular';
   src: url('fonts/Airstream-webfont.eot');
   src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
@@ -91,6 +91,9 @@ a {
   width: 90%;
 }
 .detail-image-title {
+  position: absolute;
+  bottom: -16px;
+  left: 4px;
   font-family: airstreamregular;
   color: white;
   text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
